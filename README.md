@@ -1,6 +1,8 @@
 # Mouse vs Cats Game 🐭🐱
 
 Un juego estilo Mario Bros desarrollado con HTML, CSS y JavaScript vanilla.
+<img width="762" height="480" alt="imagen" src="https://github.com/user-attachments/assets/cf20bbb2-a7a3-4a23-9601-e12d6a898f15" />
+
 
 ## Características
 
