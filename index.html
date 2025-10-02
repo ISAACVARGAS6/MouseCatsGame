@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse vs Cats Game 🐭🐱</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Mouse vs Cats Game 🐭🐱</h1>
+            <div class="score">Puntuación: <span id="score">0</span></div>
+        </div>
+        
+        <div class="game-area" id="gameArea">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </div>
+        
+        <div class="controls">
+            <div class="control-info">
+                <h3>Controles:</h3>
+                <p>← → Flechas o A D para mover | ↑ Flecha, Espacio o W para saltar</p>
+            </div>
+            <div class="control-buttons">
+                <button id="leftBtn" class="control-btn">←</button>
+                <button id="jumpBtn" class="control-btn">↑</button>
+                <button id="rightBtn" class="control-btn">→</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
